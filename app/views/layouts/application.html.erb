@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assigment1</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <center><h1>welcome students</h1></center>
+  <div id="wrapper">
+		<div id="top">
+		</div>
+		<div id="content">
+			<div id="header">
+			</div>
+			<div id="menu">
+      				<ul>
+              <h2>MANINDRA</h2>
+              <h2>Bhanu</h2>
+              <h2>Pramod</h2>
+				</ul>
+			</div>
+			<div id="stuff">
+			
+
+
+			</div>
+		</div>
+		<div id="bottom">
+		</div>
+	</div>
+    <%= yield %>
+  </body>
+</html>
